@@ -1,10 +1,10 @@
-var altura = 5;
+/* var altura = 5;
 var comprimento = 7;
 
 area = altura * comprimento;
 console.log(area);
-
-let forma = " retângulo";
+ */
+let forma = "retângulo";
 let altura = 5;
 let comprimento = 7;
 let area;
