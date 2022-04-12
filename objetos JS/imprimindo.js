@@ -1,6 +1,6 @@
 /*Desafio puxando relatório
 Percorrer um objeto e extrair informações básicas do cliente em um formato mais legivel e de forma autoomatizada para fornecer a outros departamentos do banco*/
-
+/* 
 const cliente = {
   nome: "Rafael",
   idade: 30,
@@ -41,3 +41,17 @@ for (let info in cliente) {
   }
 }
 console.log(relatorio);
+ */
+///////SPREAD OPERATOR//////////
+
+const fichaGuerreiro = {
+  nome: "Aragorn",
+  classe: "guerreiro",
+};
+
+const equipoGuerreiro = {
+  espada: "Andúril",
+  capa: "capa élfica +2",
+};
+const guerreiro = { fichaGuerreiro, equipoGuerreiro };
+console.log(guerreiro);
