@@ -42,16 +42,3 @@ for (let info in cliente) {
 }
 console.log(relatorio);
  */
-///////SPREAD OPERATOR//////////
-
-const fichaGuerreiro = {
-  nome: "Aragorn",
-  classe: "guerreiro",
-};
-
-const equipoGuerreiro = {
-  espada: "Andúril",
-  capa: "capa élfica +2",
-};
-const guerreiro = { fichaGuerreiro, equipoGuerreiro };
-console.log(guerreiro);
